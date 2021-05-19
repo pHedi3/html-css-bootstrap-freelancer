@@ -11,6 +11,15 @@
     border: 1px #ccc solid;
 }
 
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .nav-link  {
+    color: white;
+    font-weight: bold;
+}
+
 /* riscrittura pulsante  */
 .btn-primary {
     background-color: #1abc9c;
@@ -193,6 +202,10 @@ h2 {
     margin: 0 6px;
     border: 1px solid white;
     border-radius: 50%;
+}
+
+.footer h3 {
+    font-size: 20px;
 }
 
 @media screen and (max-width: 767px) {
